@@ -1,0 +1,137 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+     background-color: hsl(225, 100%, 94%); 
+     background-image: url('../images/pattern-background-desktop.svg');
+     /* background-position: 99.8%, 0;
+     background-image: url('../images/pattern-background-mobile.svg');
+     background-position: 99.8%, 0; */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+main{
+     padding: 100px 5px 20px 5px;
+} 
+
+.main{
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 320px;
+    height: 75vh;
+    /* margin: 2% 10% 2% 10%; */
+    margin: 0 auto;
+    /* padding: 60px 40px; */
+    /* margin: 50px 10px 50px 10px; */
+}
+
+.main img{
+    width: 100%;
+    display: block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.info{
+    text-align: center;
+    margin: 0 auto 10px auto; 
+    /* padding: 12px 20px 10px 20px;*/
+} 
+h3 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    padding: 0px 10px;
+ }
+.info p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 10px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+}
+/* surmmary ends */
+
+/* payment option starts*/
+.pay {
+ background-color: hsl(225, 100%, 98%);
+    box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px 30px;
+  height: 70px;
+  align-items: center;
+}
+.pay img{
+    padding: 10px;
+    width: 35px;
+}
+.price{
+    padding: 20px 2px;
+}
+.price p{
+    padding: 0 10px;
+    margin: 10px 0;
+    line-height: none;
+    font-size: 13px;
+} 
+.amount{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+.duration{
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+a{
+     font-size: 12px;
+     font-weight: 700;
+     padding: 20px 1px 20px 30px;
+     cursor: pointer;
+ }
+ a:hover{
+    color:hsl(224, 23%, 55%)
+ }
+  .proceed{
+    display: block;
+     align-items: center;
+     padding: 12px 30px; 
+     margin: 0 auto; 
+ } 
+ button{
+     display: block;
+     align-items: center;
+     padding: 8px 50px;
+     margin: 0 auto;
+     border-radius: 10px;
+     border-style: none;
+     color: white;
+     background-color:  hsl(245, 75%, 52%);
+     font-weight: 700;
+     cursor: pointer;
+ }
+ button:hover{
+     background-color: hsl(224, 33%, 48%) ;
+ }
+ .cancel{
+     display: block;
+     align-items: center;
+     color: hsl(224, 23%, 55%);
+     padding: 8px 50px;
+     font-weight: 700;
+     font-size: 12px;
+     cursor: pointer;
+ }
+ .cancel:hover{
+     color: hsl(223, 47%, 23%);
+ }
+
+ /* payment option ends */
+ footer{
+     font-size: 10px;
+     margin: 0 auto;
+ }
